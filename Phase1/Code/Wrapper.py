@@ -499,7 +499,7 @@ def StitchImages(images, H):
 
 
 def stitching():
-	folder_name = "/home/uthira/usivaraman_p1/Phase1/Code/Data/Set1/"
+	folder_name = "/home/shreyas/shreyas_p1/Phase1/Code/Data/Set1/"
 	imagesset =[]
 	gray_images =[]
 	best_corners =[]
@@ -574,7 +574,7 @@ def stitching():
 	
 	print("Final Output :")
 	plt.imshow(result)
-	plt.savefig("/home/uthira/usivaraman_p1/Phase1/Code/Result/Set1/panaroma.jpg")
+	plt.savefig("/home/shreyas/shreyas_p1/Phase1/Code/Result/Set1/panaroma.jpg")
 	plt.show()
 	plt.close()
 		
