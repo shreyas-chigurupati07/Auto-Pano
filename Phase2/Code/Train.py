@@ -64,13 +64,13 @@ def plot_losses(losses,filename):
     plt.ylabel('loss')
     plt.title('Train Loss vs. No. of epochs')
     # plt.show()  
-    # plt.savefig('/home/uthira/usivaraman_hw0/Phase2/Code/Results/Loss.png')
+    # plt.savefig('/home/shreyas/shreyas_hw0/Phase2/Code/Results/Loss.png')
     plt.savefig(filename)
 # def processData():
 
-#    mainPath = "/home/usivaraman/CV/CV_P1/Phase2/Data/"
-#    mPath= "/home/usivaraman/CV/CV_P1/Phase2/Data"
-#    labelPath = "/home/usivaraman/CV/CV_P1/Phase2/Code/TxtFiles/"   
+#    mainPath = "/home/shreyas/CV/CV_P1/Phase2/Data/"
+#    mPath= "/home/shreyas/CV/CV_P1/Phase2/Data"
+#    labelPath = "/home/shreyas/CV/CV_P1/Phase2/Code/TxtFiles/"   
 
    
 # #    if(dataType=="Train"):    
@@ -738,8 +738,8 @@ def train_sup():
         LogsPath,
         ModelType,
     )
-    plot_losses(train,'/home/usivaraman/CV/CV_P1/Phase2/Code/Results/Train_Loss.png')
-    # plot_losses(val,'/home/uthira/usivaraman_hw0/Phase2/Code/Results/Val_Loss.png')
+    plot_losses(train,'/home/shreyas/CV/CV_P1/Phase2/Code/Results/Train_Loss.png')
+    # plot_losses(val,'/home/shreyas/shreyas_hw0/Phase2/Code/Results/Val_Loss.png')
 
 # if __name__ == "__main__":
 #     # print("STARTINGGGGGG")
